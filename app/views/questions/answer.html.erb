@@ -1,3 +1,14 @@
-<h1>Here's your coach answer</h1>
-<%= @answer %>
-<%= link_to "Ask a question", ask_path %>
+<h1>Stupid Coaching</h1>
+<div class="container">
+  <div class="text">
+    <p class="message"><%= @query %></p>
+    <p>- Your question</p>
+  </div>
+  <div class="text">
+    <p class="message"><%= @answer %></p>
+    <p>- Your coach</p>
+  </div>
+  <button>
+    <%= link_to "Ask a question", ask_path %>
+  </button>
+</div>

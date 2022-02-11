@@ -2,5 +2,22 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 h1 {
-  color: red;
+  color: darkgray;
+  text-align: center;
+}
+
+.container {
+  width: 300px;
+  padding: 16px 0;
+  margin: 0 auto;
+}
+
+.text {
+  border-left: 4px solid green;
+  padding: 0 8px;
+}
+
+.message {
+  font-size: 18px;
+  font-weight: bold;
 }
