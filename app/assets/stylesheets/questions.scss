@@ -31,3 +31,13 @@ h1 {
     color: white;
   }
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  .input {
+    // border: 1px solid red;
+    padding: 8px;
+    margin: 4px 0;
+  }
+}
